@@ -54,7 +54,8 @@ main section h2 {
     text-shadow: 5px 5px 5px black;
 }
 
-main section h2 {
+main section p {
+    color: white;
     text-shadow: 5px 5px 5px red;
     letter-spacing: 3px;
 }

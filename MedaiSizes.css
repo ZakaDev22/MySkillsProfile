@@ -1,0 +1,114 @@
+
+
+@media (min-width:1200px) 
+{
+    main {
+        grid-template-columns: auto auto auto auto auto;
+    }
+
+        .container header .image-box {
+            width: 150px;
+            height: 150px;
+            border: 3px solid rgb(128, 43, 0);
+            border-radius: 50%;
+            overflow: hidden;
+            box-shadow: -5px -5px 8px rgb(255, 255, 255),
+                5px 5px 8px rgb(194, 194, 194),
+                -5px 5px 8px rgb(235, 113, 113),
+                5px -5px 8px rgb(204, 204, 204);
+        }
+
+                .container header h1 {
+        
+                    font-family: "Bebas Neue", sans-serif;
+                    color: purple;
+                    font-size: 150px;
+                    font-weight: 800;
+                    font-style: italic;
+                    text-shadow: -5px -5px 8px rgb(255, 0, 0);
+                }
+}
+
+@media (min-width:900px) and (max-width:1200px) {
+    main {
+        grid-template-columns: auto auto auto;
+    }
+
+         .container header .image-box {
+             width: 120px;
+             height: 120px;
+             border: 3px solid rgb(128, 43, 0);
+             border-radius: 50%;
+             overflow: hidden;
+             box-shadow: -5px -5px 8px rgb(28, 113, 11),
+                 5px 5px 8px rgb(40, 3, 97),
+                 -5px 5px 8px rgb(235, 113, 113),
+                 5px -5px 8px rgb(204, 204, 204);
+         }
+    
+         .container header h1 {
+    
+             font-family: "Bebas Neue", sans-serif;
+             color: white;
+             font-size: 100px;
+             font-weight: 700;
+             font-style: italic;
+             text-shadow: -5px -5px 8px #7aff33;
+         }
+}
+
+@media (min-width:600px) and (max-width:900px) {
+    main {
+        grid-template-columns: auto auto;
+    }
+
+         .container header .image-box {
+             width: 90px;
+             height: 90px;
+             border: 3px solid rgb(128, 43, 0);
+             border-radius: 50%;
+             overflow: hidden;
+             box-shadow: -5px -5px 8px rgb(255, 255, 255),
+                 5px 5px 8px rgb(194, 194, 194),
+                 -5px 5px 8px rgb(235, 113, 113),
+                 5px -5px 8px rgb(204, 204, 204);
+         }
+    
+         .container header h1 {
+    
+             font-family: "Bebas Neue", sans-serif;
+             color: yellow;
+             font-size: 90px;
+             font-weight: 700;
+             font-style: italic;
+             text-shadow: -5px -5px 8px #35d435;
+         }
+}
+
+@media (max-width:600px) {
+    main {
+        grid-template-columns: auto;
+    }
+
+         .container header .image-box {
+             width: 70px;
+             height: 70px;
+             border: 3px solid rgb(128, 43, 0);
+             border-radius: 50%;
+             overflow: hidden;
+             box-shadow: -5px -5px 8px rgb(255, 255, 255),
+                 5px 5px 8px rgb(194, 194, 194),
+                 -5px 5px 8px rgb(235, 113, 113),
+                 5px -5px 8px rgb(204, 204, 204);
+         }
+    
+         .container header h1 {
+    
+             font-family: "Bebas Neue", sans-serif;
+             color: #4848ea;
+             font-size: 80px;
+             font-weight: 700;
+             font-style: italic;
+             text-shadow: -5px -5px 8px #ff0000;
+         }
+}

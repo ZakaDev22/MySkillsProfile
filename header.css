@@ -23,6 +23,7 @@ header {
         5px 5px 8px black,
         -5px 5px 8px black,
         5px -5px 8px black;
+    flex-shrink: 0;
 }
 
 .container header .image-box img {
