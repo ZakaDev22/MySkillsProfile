@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 body {
 
     margin: 0;
@@ -34,24 +35,56 @@ header {
 }
 
 .container header .image-box {
-     width: 200px;
-     height: 200px;
-     background-color: rgb(91, 76, 76);
-     border-radius: 50%;
-     overflow: hidden;
-     box-shadow: -5px -5px 8px black,
-                5px 5px 8px black,
-                -5px 5px 8px black,
-                5px -5px 8px black ;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(91, 76, 76);
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: -5px -5px 8px black,
+        5px 5px 8px black,
+        -5px 5px 8px black,
+        5px -5px 8px black;
 }
 
 .container header h1 {
 
     font-family: "Bebas Neue", sans-serif;
-    font-size: 150px;
+    font-size: 100px;
     font-weight: 700;
     font-style: italic;
     text-shadow: -5px -5px 8px black;
+}
+
+.container header .image-box,
+.container header h1 {
+
+    position: relative;
+    animation: MyProfile 5s infinite;
+}
+
+@keyframes MyProfile {
+
+    0% {
+        top: 0px;
+    }
+
+    25% {
+        top: 40px;
+    }
+
+    50%{
+        top: 30px;
+    }
+
+    75% {
+        top:  60px;
+    }
+
+    100% {
+        top: 0px;
+    }
+
+
 }
 
 
