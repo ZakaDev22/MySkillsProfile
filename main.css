@@ -34,6 +34,8 @@ main section {
 .container main section .image-box img {
     width: inherit;
     width: inherit;
+    background-position: center;
+    background-size: cover;
 }
 
 .container main section h2,
