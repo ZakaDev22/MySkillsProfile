@@ -16,6 +16,7 @@ header {
     width: 100px;
     height: 100px;
     background-color: rgb(91, 76, 76);
+    border:  3px solid green;
     border-radius: 50%;
     overflow: hidden;
     box-shadow: -5px -5px 8px black,
@@ -24,9 +25,15 @@ header {
         5px -5px 8px black;
 }
 
+.container header .image-box img {
+    width: inherit;
+    width: inherit;
+}
+
 .container header h1 {
 
     font-family: "Bebas Neue", sans-serif;
+    color: purple;
     font-size: 100px;
     font-weight: 700;
     font-style: italic;
